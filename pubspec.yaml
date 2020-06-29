@@ -1,0 +1,35 @@
+name: feed_segrebot
+description: A Flutter game entry for Flutter Hack 20.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  audioplayers: ^0.15.1
+
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/sounds/
+
+  fonts:
+    - family: DestructoBeamBold
+      fonts:
+        - asset: assets/fonts/destructobeambb_bold.ttf
+    - family: DestructoBeamReg
+      fonts:
+        - asset: assets/fonts/destructobeambb_reg.ttf
